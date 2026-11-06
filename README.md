@@ -6,7 +6,6 @@ I help teams build reliable backend systems and connect them to the platforms th
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=flat&logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
@@ -36,7 +35,7 @@ I help teams build reliable backend systems and connect them to the platforms th
 
 ## How I work
 
-- **Clear scope up front:** we agree on goals, deliverables and timeline before I start
+- **Clear scope up front:** we agree on goals, deliverables, and timeline before I start
 - **Regular updates:** short written progress notes, no surprises at the end
 - **Clean handover:** documented, tested code your team can own and extend
 - **Time zone friendly:** CET overlaps with both European working hours and the US East Coast morning
