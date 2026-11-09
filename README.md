@@ -31,7 +31,7 @@ I help teams build reliable backend systems and connect them to the platforms th
 | **Backend & APIs** | New C# / .NET services and REST APIs, or improvements to an existing codebase |
 | **System integrations** | Your platform connected to ERP, cloud, or third-party APIs, with reliable data sync |
 | **Test automation & CI/CD** | A maintainable UI and API test framework, wired into your pipeline |
-| **AI tooling** | MCP servers, agents and automations that plug AI assistants into your real data and workflows |
+| **AI tooling** | MCP servers, agents, and automations that plug AI assistants into your real data and workflows |
 
 ## How I work
 
@@ -44,6 +44,7 @@ I help teams build reliable backend systems and connect them to the platforms th
 
 | Project | What it does |
 | --- | --- |
+| [job-tracker](https://github.com/shrytsenko/job-tracker) | Job search tracker with a CI-style pipeline per application, contacts, timeline, and follow-up reminders; AI job analysis in progress. ASP.NET Core, EF Core, React, TypeScript. |
 | [computer-database-tests](https://github.com/sergio8311/computer-database-tests) | UI test automation for a web app in C#. |
 | [playwright-with-javascript](https://github.com/sergio8311/playwright-with-javascript) | Example end-to-end test setup with Playwright and JavaScript. |
 
