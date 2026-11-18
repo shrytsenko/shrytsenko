@@ -49,6 +49,7 @@ I help teams build reliable backend systems and connect them to the platforms th
 | Project | What it does | Stack |
 | --- | --- | --- |
 | [job-tracker](https://github.com/shrytsenko/job-tracker) | AI-assisted job search tracker: pipeline per application, follow-ups, funnel dashboard, job post analysis with red flags, reply drafts and an MCP server for Claude | ASP.NET Core, PostgreSQL, React, TypeScript, Docker |
+| [context-bridge](https://github.com/shrytsenko/context-bridge) | MCP server for sharing project context between AI assistants — discuss in ChatGPT, continue in Claude Code, no copy-pasting. Stores requirements, decisions and handoffs with full-text search | ASP.NET Core, EF Core, PostgreSQL, Docker |
 
 ### Featured: [Job Tracker](https://github.com/shrytsenko/job-tracker)
 
@@ -59,6 +60,14 @@ Built for my own job hunt, and I use it every day.
 - **AI job post analysis** with a deterministic backstop, so "US only" restrictions never slip through
 - **MCP server**, so Claude can read and update the tracker
 - **Tested at every level:** xUnit, Testcontainers and Playwright, with CI, CodeQL and Dependabot
+
+### Also building: [Context Bridge](https://github.com/shrytsenko/context-bridge)
+
+An MCP server that lets a project discussed in one AI assistant continue in another without re-explaining everything from scratch.
+
+- **MCP tools** for reading and writing project context, decisions, and handoffs (`get_project_context`, `search_context`, `save_context`, `save_decision`, `create_handoff`, `complete_handoff`)
+- **Works with Claude Code directly** over MCP, plus a fallback import path for ChatGPT plans without MCP write access
+- **Clean layered architecture** (API / Application / Infrastructure / Domain) with Postgres full-text search and Testcontainers-backed tests
 
 ---
 
