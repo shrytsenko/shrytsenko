@@ -50,6 +50,7 @@ I help teams build reliable backend systems and connect them to the platforms th
 | --- | --- | --- |
 | [job-tracker](https://github.com/shrytsenko/job-tracker) | AI-assisted job search tracker: pipeline per application, follow-ups, funnel dashboard, job post analysis with red flags, reply drafts and an MCP server for Claude | ASP.NET Core, PostgreSQL, React, TypeScript, Docker |
 | [context-bridge](https://github.com/shrytsenko/context-bridge) | MCP server for sharing project context between AI assistants — discuss in ChatGPT, continue in Claude Code, no copy-pasting. Stores requirements, decisions and handoffs with full-text search | ASP.NET Core, EF Core, PostgreSQL, Docker |
+| [side-hustle-validator](https://github.com/shrytsenko/side-hustle-validator) | Claude skill / LLM prompt for launching side businesses: find and pick an idea, run a 2-hour demand test, reverse-engineer competitors, then launch and scale. Based on a Chris Koerner interview; works with Claude, ChatGPT and Gemini | Claude Skills, prompt engineering |
 
 ### Featured: [Job Tracker](https://github.com/shrytsenko/job-tracker)
 
